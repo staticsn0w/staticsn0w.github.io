@@ -127,6 +127,12 @@ playlist.add(
 );
 
 playlist.add(
+    'KILL YOURSELF', // name (note the comma)
+    'PINK GUY', // artist (ditto)
+    './killyourself.mp3' // location (NO COMMA)
+);
+
+playlist.add(
     'Tengaku', // name (note the comma)
     'Wagakki Band', // artist (ditto)
     './tengaku.mp3' // location (NO COMMA)
