@@ -3,6 +3,26 @@
   <head>
     <title>dude weed lmao</title>
     <link href="https://fonts.googleapis.com/css?family=Chewy|Pacifico|Quicksand" rel="stylesheet">
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+    var numberOfSongs = 3
+    var sound = new Array(numberOfSongs+1)
+    sound[0]= "http://mydomain.com/theprophecy.mp3"
+    sound[1]= "ttp://mydomain.com/brainpower.mp3"
+    sound[2]= "ttp://mydomain.com/burntriceremix.mp3"
+    function randomNumber(){
+      var randomLooper = -1
+      while (randomLooper < 0 || randomLooper > numberOfSongs || isNaN(randomLooper)){
+        randomLooper = parseInt(Math.random()*(numberOfSongs+1))
+      }
+      return randomLooper
+    }
+    var randomsub = randomNumber()
+    var soundFile = sound[randomsub]
+    document.write ('<EMBED src= "' + soundFile + '" hidden=true autostart=true loop=true>')
+</script>
   </head>
   <body>
     <h1 class="chewy">hey what's up my dude</h1>
