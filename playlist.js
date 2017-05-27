@@ -121,6 +121,24 @@ playlist.add(
 );
 
 playlist.add(
+    'TERIYAKI GOD', // name (note the comma)
+    'PINK GUY', // artist (ditto)
+    './teriyakigod.mp3' // location (NO COMMA)
+);
+
+playlist.add(
+    'Tengaku', // name (note the comma)
+    'Wagakki Band', // artist (ditto)
+    './tengaku.mp3' // location (NO COMMA)
+);
+
+playlist.add(
+    'The Big Black', // name (note the comma)
+    'The Quick Brown Fox', // artist (ditto)
+    './thebigblack.mp3' // location (NO COMMA)
+);
+
+playlist.add(
     'Quinoa Balls', // name (note the comma)
     'ANDREW HUANG', // artist (ditto)
     './quinoaballs.mp3' // location (NO COMMA)
