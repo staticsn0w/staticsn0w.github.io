@@ -127,12 +127,11 @@ playlist.add(
 );
 
 // they don't need to be split across multiple lines, just remember the commas.
-playlist.add('Alexandrian Ricochet Sphere', 'Truxton', './music/Alexandrian Ricochet Sphere.ogg');
 // Add as many as you want. It can expand.
 
 // If you want the playlist to shuffle every time it finishes playing all the
 // songs, uncomment this.
-// playlist.shuffleOnEnd = true;
+playlist.shuffleOnEnd = true;
 
 // But since you want it to be random every time, we should shuffle the playlist
 // before we actually start playing it.
