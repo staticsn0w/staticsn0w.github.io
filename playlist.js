@@ -74,7 +74,7 @@ function Playlist(element) {
 		self.element.play();
 	}
 
-	self.element.addEventListener("ended", function(){
+	self.element.addEventListener("ended", function()) {
 		self.songCount++;
 		if (self.songCount >= self.songs.length) {
 			if (self.shuffleOnEnd) {
