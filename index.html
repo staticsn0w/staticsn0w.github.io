@@ -12,6 +12,7 @@
     <audio id="music-player"></audio>
     <div class="songinfo">
       <p class="chewy">Currently playing: <span id="song-artist"></span> - <span id="song-title"></span></p>
+      <button onclick="function(){if(playlist.element.paused){playlist.element.play();}else{playlist.element.pause()}}">⏯</button>
     </div>
   </body>
   <style>
