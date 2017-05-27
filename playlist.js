@@ -126,6 +126,12 @@ playlist.add(
     './theprophecy.mp3' // location (NO COMMA)
 );
 
+playlist.add(
+    'Figue Folle', // name (note the comma)
+    'Igorrr & Ruby My Dear', // artist (ditto)
+    './figuefolle.mp3' // location (NO COMMA)
+);
+
 // they don't need to be split across multiple lines, just remember the commas.
 // Add as many as you want. It can expand.
 
