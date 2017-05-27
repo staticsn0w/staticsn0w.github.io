@@ -115,6 +115,18 @@ playlist.add(
 );
 
 playlist.add(
+    'RICE BALLS', // name (note the comma)
+    'PINK GUY', // artist (ditto)
+    './riceballs.mp3' // location (NO COMMA)
+);
+
+playlist.add(
+    'Quinoa Balls', // name (note the comma)
+    'ANDREW HUANG', // artist (ditto)
+    './quinoaballs.mp3' // location (NO COMMA)
+);
+
+playlist.add(
     'Brain Power', // name (note the comma)
     'NOMA', // artist (ditto)
     './brainpower.mp3' // location (NO COMMA)
