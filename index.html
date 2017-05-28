@@ -13,17 +13,27 @@
     <div class="songinfo">
       <p class="chewy">Currently playing: <span id="song-artist"></span> - <span id="song-title"></span></p>
     </div>
-    <button class="playpause" type="button" onclick="aud_play_pause()">play/pause</button>
+    <div class="playpausediv">
+      <button class="playpause" type="button" onclick="aud_play_pause()">play/pause</button>
+    </div>
   </body>
   <style>
     .playpause {
-      text-align: center;
       color: white;
       font-family: 'Chewy', cursive;
       background:none;
       border:none;
       margin:0;
       padding:0;
+      text-decoration: underline;
+    }
+    
+    .playpause:hover {
+      text-decoration: none;
+    }
+    
+    .playpausediv {
+      text-align: center;
     }
     
     body {
