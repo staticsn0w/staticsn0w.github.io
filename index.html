@@ -13,8 +13,14 @@
     <div class="songinfo">
       <p class="chewy">Currently playing: <span id="song-artist"></span> - <span id="song-title"></span></p>
     </div>
+    <button class="playpause" type="button" onclick="aud_play_pause()">play/pause</button>
   </body>
   <style>
+    .playpause {
+      text-align: center;
+      font-family: 'Chewy', cursive;
+    }
+    
     body {
       background-color: black;
     }
@@ -51,5 +57,16 @@
       color: white;
     }
   </style>
+  <script>
+    function aud_play_pause() {
+      var myAudio = document.getElementById("music-player");
+      if (myAudio.paused) {
+        myAudio.play();
+      } 
+      else {
+        myAudio.pause();
+      }
+    }
+  </script>
   <script src="./playlist.js"></script>
 </html>
